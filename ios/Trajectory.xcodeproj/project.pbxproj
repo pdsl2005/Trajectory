@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000000000000000000000002 /* AccountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000001 /* AccountsView.swift */; };
+		000000000000000000000004 /* BudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000003 /* BudgetView.swift */; };
+		000000000000000000000006 /* CardImports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000005 /* CardImports.swift */; };
+		000000000000000000000008 /* ForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000007 /* ForecastView.swift */; };
+		00000000000000000000000A /* ScenariosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000009 /* ScenariosView.swift */; };
+		00000000000000000000000C /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000B /* Store.swift */; };
+		00000000000000000000000E /* TrajectoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000D /* TrajectoryApp.swift */; };
+		000000000000000000000019 /* TrajectoryCore in Frameworks */ = {isa = PBXBuildFile; productRef = 000000000000000000000018 /* TrajectoryCore */; };
+		00000000000000000000001B /* LinkKit in Frameworks */ = {isa = PBXBuildFile; productRef = 00000000000000000000001A /* LinkKit */; };
+		00000000000000000000001C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		000000000000000000000001 /* AccountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsView.swift; sourceTree = "<group>"; };
+		000000000000000000000003 /* BudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetView.swift; sourceTree = "<group>"; };
+		000000000000000000000005 /* CardImports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImports.swift; sourceTree = "<group>"; };
+		000000000000000000000007 /* ForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastView.swift; sourceTree = "<group>"; };
+		000000000000000000000009 /* ScenariosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenariosView.swift; sourceTree = "<group>"; };
+		00000000000000000000000B /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		00000000000000000000000D /* TrajectoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrajectoryApp.swift; sourceTree = "<group>"; };
+		00000000000000000000000F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		000000000000000000000010 /* Trajectory.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Trajectory.entitlements; sourceTree = "<group>"; };
+		000000000000000000000011 /* Configuration.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Configuration.xcconfig; sourceTree = "<group>"; };
+		000000000000000000000012 /* Trajectory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Trajectory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00000000000000000000001E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000019 /* TrajectoryCore in Frameworks */,
+				00000000000000000000001B /* LinkKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000000000000000000000013 /* Trajectory */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000001 /* AccountsView.swift */,
+				000000000000000000000003 /* BudgetView.swift */,
+				000000000000000000000005 /* CardImports.swift */,
+				000000000000000000000007 /* ForecastView.swift */,
+				000000000000000000000009 /* ScenariosView.swift */,
+				00000000000000000000000B /* Store.swift */,
+				00000000000000000000000D /* TrajectoryApp.swift */,
+				00000000000000000000000F /* Assets.xcassets */,
+				000000000000000000000010 /* Trajectory.entitlements */,
+			);
+			path = Trajectory;
+			sourceTree = "<group>";
+		};
+		000000000000000000000014 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000012 /* Trajectory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		000000000000000000000015 = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000013 /* Trajectory */,
+				000000000000000000000011 /* Configuration.xcconfig */,
+				000000000000000000000014 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000000000000000000000026 /* Trajectory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000000000000000000025 /* Build configuration list for PBXNativeTarget "Trajectory" */;
+			buildPhases = (
+				00000000000000000000001D /* Sources */,
+				00000000000000000000001E /* Frameworks */,
+				00000000000000000000001F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trajectory;
+			packageProductDependencies = (
+				000000000000000000000018 /* TrajectoryCore */,
+				00000000000000000000001A /* LinkKit */,
+			);
+			productName = Trajectory;
+			productReference = 000000000000000000000012 /* Trajectory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000000000000000000000027 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2700;
+			};
+			buildConfigurationList = 000000000000000000000022 /* Build configuration list for PBXProject "Trajectory" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 000000000000000000000015;
+			packageReferences = (
+				000000000000000000000016 /* XCLocalSwiftPackageReference "../native" */,
+				000000000000000000000017 /* XCRemoteSwiftPackageReference "plaid-link-ios-spm" */,
+			);
+			productRefGroup = 000000000000000000000014 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000000000000000000000026 /* Trajectory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00000000000000000000001F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00000000000000000000001C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00000000000000000000001D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000002 /* AccountsView.swift in Sources */,
+				000000000000000000000004 /* BudgetView.swift in Sources */,
+				000000000000000000000006 /* CardImports.swift in Sources */,
+				000000000000000000000008 /* ForecastView.swift in Sources */,
+				00000000000000000000000A /* ScenariosView.swift in Sources */,
+				00000000000000000000000C /* Store.swift in Sources */,
+				00000000000000000000000E /* TrajectoryApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		000000000000000000000020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ENABLE_EXPLICIT_MODULES = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		000000000000000000000021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_ENABLE_EXPLICIT_MODULES = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		000000000000000000000023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 000000000000000000000011 /* Configuration.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "$(TRAJECTORY_ENTITLEMENTS)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Trajectory/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(TRAJECTORY_BUNDLE_ID)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		000000000000000000000024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 000000000000000000000011 /* Configuration.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "$(TRAJECTORY_ENTITLEMENTS)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Trajectory/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(TRAJECTORY_BUNDLE_ID)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000000000000000000000022 /* Build configuration list for PBXProject "Trajectory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000000000020 /* Debug */,
+				000000000000000000000021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000000000000000000000025 /* Build configuration list for PBXNativeTarget "Trajectory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000000000023 /* Debug */,
+				000000000000000000000024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		000000000000000000000016 /* XCLocalSwiftPackageReference "../native" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../native;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		000000000000000000000017 /* XCRemoteSwiftPackageReference "plaid-link-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/plaid/plaid-link-ios-spm.git";
+			requirement = {
+				kind = exactVersion;
+				version = 7.2.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		000000000000000000000018 /* TrajectoryCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 000000000000000000000016 /* XCLocalSwiftPackageReference "../native" */;
+			productName = TrajectoryCore;
+		};
+		00000000000000000000001A /* LinkKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 000000000000000000000017 /* XCRemoteSwiftPackageReference "plaid-link-ios-spm" */;
+			productName = LinkKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 000000000000000000000027 /* Project object */;
+}

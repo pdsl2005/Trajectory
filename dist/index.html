@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#261c48">
+  <meta name="description" content="Build a budget and plan for retirement, major expenses and other financial goals.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon-192.png">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Trajectory</title>
+</head>
+<body>
+  <header class="masthead">
+    <div class="masthead-inner">
+      <div class="brand"><img src="icon-192.png" width="36" height="36" alt="">Trajectory</div>
+      <div class="masthead-actions">
+        <span id="storage" role="status">Opening local database…</span>
+        <button type="button" id="share" class="share-button">Share app</button>
+      </div>
+    </div>
+  </header>
+  <nav id="nav" aria-label="Main navigation" hidden></nav>
+  <main id="screen"></main>
+  <script src="engine.js" defer></script>
+  <script src="vendor/sql-wasm.js" defer></script>
+  <script src="retirement.js" defer></script>
+  <script src="storage.js" defer></script>
+  <script src="charts.js" defer></script>
+  <script src="planner.js" defer></script>
+  <script src="app.js" defer></script>
+</body>
+</html>

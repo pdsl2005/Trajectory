@@ -1,0 +1,6 @@
+// Copy this file to Local.xcconfig and set your own values.
+TRAJECTORY_BUNDLE_ID = com.example.trajectory
+// The empty expansion prevents xcconfig from treating // as a comment.
+TRAJECTORY_API_URL = https:/$()/trajectory-api.example.com
+TRAJECTORY_ENTITLEMENTS = Trajectory/Trajectory.entitlements
+DEVELOPMENT_TEAM = YOURTEAMID

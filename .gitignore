@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+.pytest_cache/
+.venv/
+.env
+.build/
+DerivedData/
+xcuserdata/
+ios/Local.xcconfig
+ios/Local.entitlements

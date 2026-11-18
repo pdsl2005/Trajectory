@@ -1,0 +1,4 @@
+TRAJECTORY_BUNDLE_ID = com.trajectory.budget
+TRAJECTORY_API_URL =
+TRAJECTORY_ENTITLEMENTS =
+#include? "Local.xcconfig"
